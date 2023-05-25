@@ -7,6 +7,10 @@
 <!--- Why is this change required? What problem does it solve? -->
 <!--- If it fixes an open issue, please link to the issue here. -->
 
+## Affected areas
+
+<!-- Which existing functionality was affected? -->
+
 ## Breaking Changes
 
 <!-- Does this break backwards compatibility? -->
