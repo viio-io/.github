@@ -1,0 +1,43 @@
+name: Enhancement Request
+description: Suggest an idea for this project
+projects: ["viio-io/4"]
+labels: ["type:enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for taking the time to suggest an enhancement!"
+  - type: input
+    attributes:
+      label: Title
+      description: "A concise title for your enhancement."
+      placeholder: "Title"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: "A detailed description of the enhancement."
+      placeholder: "Provide a detailed description"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Motivation and Context
+      description: "Why is this enhancement useful or necessary? How does it improve the project?"
+      placeholder: "Explain why this enhancement is needed"
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Possible Implementation
+      description: "If known, suggest an approach for implementing the enhancement."
+      placeholder: "Describe a possible implementation"
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: "Any other context or information about the enhancement, like links to similar features in other projects."
+      placeholder: "Add any other context about the enhancement here."
+    validations:
+      required: false

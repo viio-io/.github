@@ -1,0 +1,58 @@
+name: Bug Report
+description: Create a report to help us improve
+title: "[BUG]: "
+projects: ["viio-io/4"]
+labels: ["type:bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for taking the time to fill out a bug report!"
+  - type: input
+    attributes:
+      label: Bug Title
+      description: "A clear and concise title for the bug."
+      placeholder: "Title"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the Bug
+      description: "A clear and concise description of what the bug is."
+      placeholder: "Describe the bug in as much detail as possible."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: "Steps to reproduce the behavior:"
+      placeholder: "1. Go to '...'\n2. Click on '....'\n3. Scroll down to '....'\n4. See error"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: "A clear and concise description of what you expected to happen."
+      placeholder: "Explain what you expected to happen."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: "If applicable, add screenshots to help explain your problem."
+      placeholder: "Attach screenshots here."
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Environment and Customer Information
+      description: "Include any relevant environment details (OS, browser, etc.) and customer information under which the bug is reproducible."
+      placeholder: "Environment: [e.g., OS, browser version]\nCustomer: [e.g., specific customer or customer type under which bug is reproducible]"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: "Add any other context about the problem here."
+      placeholder: "Any other context or information about the bug."
+    validations:
+      required: false
