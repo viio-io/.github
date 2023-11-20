@@ -6,13 +6,6 @@ body:
   - type: markdown
     attributes:
       value: "Thanks for taking the time to suggest an enhancement!"
-  - type: input
-    attributes:
-      label: Title
-      description: "A concise title for your enhancement."
-      placeholder: "Title"
-    validations:
-      required: true
   - type: textarea
     attributes:
       label: Description
