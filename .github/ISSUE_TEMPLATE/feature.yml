@@ -6,13 +6,6 @@ body:
   - type: markdown
     attributes:
       value: "Thanks for taking the time to submit a feature request!"
-  - type: input
-    attributes:
-      label: Feature Title
-      description: "A short and descriptive title for the feature."
-      placeholder: "Title"
-    validations:
-      required: true
   - type: textarea
     attributes:
       label: Feature Description
