@@ -7,13 +7,6 @@ body:
   - type: markdown
     attributes:
       value: "Thanks for taking the time to fill out a bug report!"
-  - type: input
-    attributes:
-      label: Bug Title
-      description: "A clear and concise title for the bug."
-      placeholder: "Title"
-    validations:
-      required: true
   - type: textarea
     attributes:
       label: Describe the Bug
