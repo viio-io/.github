@@ -1,0 +1,17 @@
+name: Task
+description: Divide something big to smaller parts
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: "A detailed description of what should be done in scope of this task."
+      placeholder: "Describe the scope in as much detail as possible."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional Resources
+      description: "Provide any additional context which can help to complete the task."
+      placeholder: "Add any other context about the task."
+    validations:
+      required: false
