@@ -7,13 +7,6 @@ body:
   - type: markdown
     attributes:
       value: "Thank you for reaching out for support. Please provide as much detail as possible to help us assist you effectively."
-  - type: input
-    attributes:
-      label: Customer Name or ID
-      description: "Please provide the customer name or identification number."
-      placeholder: "Enter customer name or ID"
-    validations:
-      required: true
   - type: textarea
     attributes:
       label: Issue Description
