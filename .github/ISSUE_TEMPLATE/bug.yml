@@ -30,20 +30,6 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Actual Behavior
-      description: "A clear and concise description of what actually happened."
-      placeholder: "Explain what actually happened."
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Screenshots
-      description: "If applicable, add screenshots to help explain your problem."
-      placeholder: "Attach screenshots here."
-    validations:
-      required: false
-  - type: textarea
-    attributes:
       label: Environment and Customer Information
       description: "Include any relevant environment details (OS, browser, etc.) and customer information under which the bug is reproducible."
       placeholder: "Environment: [e.g., OS, browser version]\nCustomer: [e.g., specific customer or customer type under which bug is reproducible]"
