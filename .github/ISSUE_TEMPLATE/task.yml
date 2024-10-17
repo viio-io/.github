@@ -1,5 +1,6 @@
 name: Task
-description: Divide something big to smaller parts
+description: A specific piece of work
+type: Task
 body:
   - type: textarea
     attributes:

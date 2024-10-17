@@ -1,6 +1,5 @@
 name: Bug Report
-description: Create a report to help us improve
-title: "[BUG]: "
+description: An unexpected problem or behavior
 projects: ["viio-io/4"]
 labels: ["type:bug"]
 type: Bug
@@ -27,6 +26,13 @@ body:
       label: Expected Behavior
       description: "A clear and concise description of what you expected to happen."
       placeholder: "Explain what you expected to happen."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      description: "A clear and concise description of what actually happened."
+      placeholder: "Explain what actually happened."
     validations:
       required: true
   - type: textarea
