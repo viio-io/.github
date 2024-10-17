@@ -3,6 +3,7 @@ description: Create a report to help us improve
 title: "[BUG]: "
 projects: ["viio-io/4"]
 labels: ["type:bug"]
+type: Bug
 body:
   - type: markdown
     attributes:
