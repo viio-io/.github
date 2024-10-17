@@ -1,7 +1,8 @@
 name: Spike Task
-description: Create a spike task for investigation or research
+description: An investigation or research
 projects: ["viio-io/4"]
 labels: ["type:spike"]
+type: Spike
 body:
   - type: markdown
     attributes:
@@ -34,13 +35,6 @@ body:
       placeholder: "What are the expected outcomes of this spike?"
     validations:
       required: true
-  - type: textarea
-    attributes:
-      label: Timeframe
-      description: "If applicable, specify the timeframe or deadline for completing this spike."
-      placeholder: "Specify a timeframe or deadline."
-    validations:
-      required: false
   - type: textarea
     attributes:
       label: Additional Resources

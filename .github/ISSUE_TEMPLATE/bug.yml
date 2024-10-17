@@ -1,6 +1,5 @@
 name: Bug Report
-description: Create a report to help us improve
-title: "[BUG]: "
+description: An unexpected problem or behavior
 projects: ["viio-io/4"]
 labels: ["type:bug"]
 type: Bug
@@ -29,13 +28,6 @@ body:
       placeholder: "Explain what you expected to happen."
     validations:
       required: true
-  - type: textarea
-    attributes:
-      label: Screenshots
-      description: "If applicable, add screenshots to help explain your problem."
-      placeholder: "Attach screenshots here."
-    validations:
-      required: false
   - type: textarea
     attributes:
       label: Environment and Customer Information
