@@ -1,7 +1,6 @@
 name: Bug Report
 description: An unexpected problem or behavior
 projects: ["viio-io/4"]
-labels: ["type:bug"]
 type: Bug
 body:
   - type: markdown
@@ -27,7 +26,7 @@ body:
       description: "A clear and concise description of what happened."
       placeholder: "Explain what happened."
     validations:
-      required: true    
+      required: true
   - type: textarea
     attributes:
       label: Expected Behavior

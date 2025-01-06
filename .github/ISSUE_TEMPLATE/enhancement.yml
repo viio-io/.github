@@ -1,7 +1,6 @@
 name: Enhancement Request
 description: A request, idea, or new functionality
 projects: ["viio-io/4"]
-labels: ["type:enhancement"]
 type: Enhancement
 body:
   - type: markdown

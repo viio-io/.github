@@ -1,7 +1,6 @@
 name: Spike Task
 description: An investigation or research
 projects: ["viio-io/4"]
-labels: ["type:spike"]
 type: Spike
 body:
   - type: markdown
