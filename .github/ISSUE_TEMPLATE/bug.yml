@@ -1,6 +1,7 @@
 name: Bug Report
 description: An unexpected problem or behavior
 projects: ["viio-io/4"]
+labels: ["type:bug"]
 type: Bug
 body:
   - type: markdown
