@@ -22,13 +22,6 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: Specific Questions or Areas of Focus
-      description: "List any specific questions or areas that need to be focused on during the investigation."
-      placeholder: "What specific areas should this investigation focus on?"
-    validations:
-      required: true
-  - type: textarea
-    attributes:
       label: Expected Outcomes
       description: "Describe the expected outcomes or deliverables from this spike."
       placeholder: "What are the expected outcomes of this spike?"
