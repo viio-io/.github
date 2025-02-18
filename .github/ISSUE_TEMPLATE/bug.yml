@@ -1,7 +1,7 @@
 name: Bug Report
 description: An unexpected problem or behavior
 projects: ["viio-io/4"]
-labels: ["qa involvement"]
+labels: ["bug", "qa involvement"]
 type: Bug
 body:
   - type: markdown
