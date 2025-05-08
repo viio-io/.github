@@ -19,7 +19,7 @@ body:
       description: "Why is this enhancement useful or necessary? How does it improve the project?"
       placeholder: "Explain why this enhancement is needed"
     validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
       label: Possible Implementation
