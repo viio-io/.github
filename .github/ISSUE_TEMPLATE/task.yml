@@ -8,7 +8,7 @@ body:
       description: "A detailed description of what should be done in scope of this task."
       placeholder: "Describe the scope in as much detail as possible."
     validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
       label: Additional Resources
