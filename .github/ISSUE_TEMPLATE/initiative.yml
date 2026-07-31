@@ -1,0 +1,65 @@
+name: Product initiative
+description: A product-owned brief describing a possible piece of work, large or small.
+type: Initiative
+projects: ["viio-io/10"]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: >-
+        What we're doing and why it's worth doing. Where the shape is already clear,
+        say roughly how. Three or four sentences.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Opportunity
+      description: >-
+        The case for it. What pain or opening did we see, who felt it, and what makes
+        it a priority now?
+    validations:
+      required: true
+
+  - type: textarea
+    id: signals
+    attributes:
+      label: Signals
+      description: >-
+        What specific signals back this up — feedback, conversations, data. Add new
+        ones as they come in.
+      placeholder: |
+        - Example Co (trial) — can't record a second agreement on one app — conv 000000000000000
+        - 2026-07-24 digest — contract management ranked the strongest theme
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution
+      description: >-
+        The proposed approach — or the options still on the table, if we haven't picked
+        one — and the boundaries of what this does and doesn't cover.
+    validations:
+      required: false
+
+  - type: textarea
+    id: open-questions
+    attributes:
+      label: Open questions
+      description: What we haven't decided or don't yet know.
+    validations:
+      required: false
+
+  - type: textarea
+    id: launch
+    attributes:
+      label: Launch
+      description: >-
+        How this reaches customers, who sees it first, and what needs to change outside
+        the product.
+    validations:
+      required: false
