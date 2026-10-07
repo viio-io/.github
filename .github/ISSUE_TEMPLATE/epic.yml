@@ -6,7 +6,7 @@ body:
     attributes:
       label: Goal
       description: "One sentence on what the end state looks like, highlighting the difference with the current state. No how or why."
-      placeholder: "All customer-related authentication and authorization managed via Keycloak."
+      placeholder: "Reports are generated automatically every night without manual steps."
     validations:
       required: true
   - type: textarea

@@ -38,6 +38,6 @@ body:
     attributes:
       label: Acceptance Criteria
       description: "High-level verification points as a flat checklist, one distinct outcome each. Include when there are 4+ points or the success conditions are not obvious."
-      placeholder: "- [ ] Return `Available` when the external product mapping has 1+ trackable apps\n- [ ] Return `NotSupported` when it has none"
+      placeholder: "- [ ] Returns the expected result for a valid request\n- [ ] Rejects an invalid request with a clear error"
     validations:
       required: false
