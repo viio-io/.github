@@ -4,6 +4,13 @@ type: Epic
 body:
   - type: textarea
     attributes:
+      label: Goal
+      description: "One sentence on what the end state looks like, highlighting the difference with the current state. No how or why."
+      placeholder: "All customer-related authentication and authorization managed via Keycloak."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
       label: Description
       description: "A detailed description of the epic."
       placeholder: "Describe the epic in as much detail as possible."
