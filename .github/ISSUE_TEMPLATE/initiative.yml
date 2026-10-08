@@ -16,25 +16,34 @@ body:
   - type: textarea
     id: problem
     attributes:
-      label: Problem / Opportunity
+      label: Need / Problem / Opportunity
       description: >-
-        The case for it. What pain or opening did we see, who felt it, and what makes
-        it a priority now?
+        The case for it, in plain language: what customers can't do today, who feels it,
+        and what makes it a priority now. Describe needs in words; links and quotes go in
+        Evidence.
+      placeholder: |
+        Customers can record only one agreement per app, so a true-up and next year's
+        renewal can't both live in Viio and one ends up in a notes field. Trial accounts
+        meet this while setting up contracts, which makes it an evaluation problem as much
+        as an annoyance for existing customers.
     validations:
       required: true
 
   - type: textarea
-    id: signals
+    id: evidence
     attributes:
-      label: Signals
+      label: Evidence
       description: >-
-        What specific signals back this up — feedback, conversations, data. Add new
-        ones as they come in.
+        Optional. The needs from the product hub behind this: each linked by its ID, with
+        its title and one-line description, and up to three quotes beneath. List several
+        if this covers several. Other notes can follow them, such as usage data, a
+        competitor's release, or feedback the hub doesn't hold. Add evidence as it comes in.
       placeholder: |
-        - Example Co (trial) — can't record a second agreement on one app — conv 000000000000000
-        - 2026-07-24 digest — contract management ranked the strongest theme
+        - [NEED-0000](https://github.com/viio-io/product-hub/blob/main/needs/NEED-0000.md) — **Record a second agreement on one app.** An app holds one agreement. Customers with a true-up and a renewal on the same app can represent only one of them.
+          - Example Co (trial) — "We have two agreements for this app. Where do I add the second one?" (2026-07-24)
+        - Example Rival lets customers attach several agreements to one app (release notes, 2026-06-30)
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: solution
